@@ -1,0 +1,16 @@
+
+target/ 
+
+
+.idea/ [cite: 369, 653]
+*.iml [cite: 369, 654]
+.vscode/
+.settings/
+.project/
+
+screenshots/ 
+allure-results/
+allure-report/
+*.log [cite: 657]
+
+.env [cite: 656]
