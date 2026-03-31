@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DDTParallelSuite" parallel="tests" thread-count="3" data-provider-thread-count="6">
+    <test name="JavaDDT">
+        <classes>
+            <class name="ddt.tests.JavaDataProviderLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="ExcelDDT">
+        <classes>
+            <class name="ddt.tests.ExcelDataDrivenLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="JsonDDT">
+        <classes>
+            <class name="ddt.tests.JsonDataDrivenLoginTest"/>
+        </classes>
+    </test>
+</suite>

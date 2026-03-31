@@ -1,0 +1,5 @@
+framework\pages\InventoryPage.class
+framework\base\BasePage.class
+framework\pages\LoginPage.class
+framework\config\ConfigReader.class
+framework\pages\CartPage.class

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bai3ExcelDDTSuite" parallel="tests" thread-count="2">
+
+    <test name="SmokeGroup">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="env" value="dev"/>
+        <parameter name="runGroup" value="smoke"/>
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.LoginDDTTest"/>
+        </classes>
+    </test>
+
+    <test name="RegressionGroup">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="env" value="dev"/>
+        <parameter name="runGroup" value="regression"/>
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.LoginDDTTest"/>
+        </classes>
+    </test>
+
+</suite>

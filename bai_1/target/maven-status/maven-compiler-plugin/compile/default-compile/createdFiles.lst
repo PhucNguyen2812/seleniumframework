@@ -1,0 +1,5 @@
+framework\driver\DriverFactory.class
+framework\base\BasePage.class
+framework\utils\ScreenshotUtil.class
+framework\pages\BasePageDependencyProbe.class
+framework\config\ConfigReader.class

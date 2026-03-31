@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RetrySuite" parallel="false">
+    <listeners>
+        <listener class-name="framework.utils.RetryListener"/>
+    </listeners>
+
+    <test name="RetryDemoTests">
+        <classes>
+            <class name="tests.FlakyDemoTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,12 @@
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\base\BaseTest.java
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\config\ConfigReader.java
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\model\UserData.java
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\pages\LoginPage.java
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\providers\LoginDataProviders.java
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\tests\ExcelDataDrivenLoginTest.java
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\tests\JavaDataProviderLoginTest.java
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\tests\JsonDataDrivenLoginTest.java
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\tests\SmokeLoginTest.java
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\utils\ExcelReader.java
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\utils\ExcelTestDataBuilder.java
+C:\Users\LTH\Documents\Tester_lab9\lab_9.6\src\test\java\ddt\utils\JsonReader.java

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-17T15:48:44 ICT" name="Bai7 Refactor Suite" finished-at="2026-03-17T15:48:49 ICT" duration-ms="4562">
+    <groups>
+    </groups>
+    <test started-at="2026-03-17T15:48:44 ICT" name="Login Refactor Tests" finished-at="2026-03-17T15:48:49 ICT" duration-ms="4562">
+      <class name="tests.LoginRefactorTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginRefactorTest@31c88ec8]" started-at="2026-03-17T15:48:44 ICT" name="setUp" finished-at="2026-03-17T15:48:46 ICT" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFlow_WithPOM_AndDDT(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginRefactorTest@31c88ec8]" started-at="2026-03-17T15:48:46 ICT" name="loginFlow_WithPOM_AndDDT" data-provider="loginData" finished-at="2026-03-17T15:48:47 ICT" duration-ms="1035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFlow_WithPOM_AndDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginRefactorTest@31c88ec8]" started-at="2026-03-17T15:48:47 ICT" name="tearDown" finished-at="2026-03-17T15:48:47 ICT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginRefactorTest@31c88ec8]" started-at="2026-03-17T15:48:47 ICT" name="setUp" finished-at="2026-03-17T15:48:48 ICT" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginFlow_WithPOM_AndDDT(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginRefactorTest@31c88ec8]" started-at="2026-03-17T15:48:48 ICT" name="loginFlow_WithPOM_AndDDT" data-provider="loginData" finished-at="2026-03-17T15:48:49 ICT" duration-ms="845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFlow_WithPOM_AndDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginRefactorTest@31c88ec8]" started-at="2026-03-17T15:48:49 ICT" name="tearDown" finished-at="2026-03-17T15:48:49 ICT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginRefactorTest -->
+    </test> <!-- Login Refactor Tests -->
+  </suite> <!-- Bai7 Refactor Suite -->
+</testng-results>

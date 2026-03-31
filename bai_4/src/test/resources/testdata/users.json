@@ -1,0 +1,37 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "role": "user",
+    "expectSuccess": true,
+    "description": "valid_standard_user"
+  },
+  {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "role": "user",
+    "expectSuccess": false,
+    "description": "locked_user"
+  },
+  {
+    "username": "standard_user",
+    "password": "wrongpass",
+    "role": "user",
+    "expectSuccess": false,
+    "description": "wrong_password"
+  },
+  {
+    "username": "admin_user",
+    "password": "admin_pass",
+    "role": "admin",
+    "expectSuccess": false,
+    "description": "admin_invalid_for_saucedemo"
+  },
+  {
+    "username": "invalid_user_123",
+    "password": "invalid_pass",
+    "role": "guest",
+    "expectSuccess": false,
+    "description": "totally_invalid_user"
+  }
+]

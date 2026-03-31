@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JavaDDTSuite" parallel="methods" thread-count="3">
+    <test name="JavaDDTTests">
+        <classes>
+            <class name="ddt.tests.JavaDataProviderLoginTest"/>
+        </classes>
+    </test>
+</suite>

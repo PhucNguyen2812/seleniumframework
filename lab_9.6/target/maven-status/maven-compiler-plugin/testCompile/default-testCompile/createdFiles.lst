@@ -1,0 +1,14 @@
+ddt\tests\JsonDataDrivenLoginTest.class
+ddt\tests\SmokeLoginTest.class
+ddt\providers\LoginDataProviders.class
+ddt\utils\ExcelReader.class
+ddt\config\ConfigReader.class
+ddt\tests\ExcelDataDrivenLoginTest.class
+ddt\base\BaseTest.class
+ddt\tests\JavaDataProviderLoginTest.class
+ddt\utils\JsonReader$1.class
+ddt\utils\ExcelTestDataBuilder.class
+ddt\utils\ExcelReader$1.class
+ddt\pages\LoginPage.class
+ddt\utils\JsonReader.class
+ddt\model\UserData.class

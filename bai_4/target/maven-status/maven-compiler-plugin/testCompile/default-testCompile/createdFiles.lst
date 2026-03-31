@@ -1,0 +1,8 @@
+tests\CheckoutTest.class
+ddt\providers\JsonUserDataProvider.class
+ddt\utils\JsonReader.class
+framework\base\BaseTest.class
+ddt\model\UserData.class
+ddt\factory\TestDataFactory.class
+tests\UserLoginTest.class
+ddt\utils\JsonReader$1.class

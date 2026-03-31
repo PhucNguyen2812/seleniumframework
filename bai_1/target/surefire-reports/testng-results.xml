@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-17T15:47:13 ICT" name="Bai1Suite" finished-at="2026-03-17T15:47:15 ICT" duration-ms="2221">
+    <groups>
+    </groups>
+    <test started-at="2026-03-17T15:47:13 ICT" name="Bai1Tests" finished-at="2026-03-17T15:47:15 ICT" duration-ms="2221">
+      <class name="tests.BasePage_BaseTest_Demo">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:tests.BasePage_BaseTest_Demo@192d43ce]" started-at="2026-03-17T15:47:13 ICT" name="setUp" finished-at="2026-03-17T15:47:15 ICT" duration-ms="2006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="demoBasePage_BaseTest()[pri:0, instance:tests.BasePage_BaseTest_Demo@192d43ce]" started-at="2026-03-17T15:47:15 ICT" name="demoBasePage_BaseTest" description="Demo that BaseTest provides getDriver()" finished-at="2026-03-17T15:47:15 ICT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoBasePage_BaseTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.BasePage_BaseTest_Demo@192d43ce]" started-at="2026-03-17T15:47:15 ICT" name="tearDown" finished-at="2026-03-17T15:47:15 ICT" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=demoBasePage_BaseTest status=SUCCESS method=BasePage_BaseTest_Demo.demoBasePage_BaseTest()[pri:0, instance:tests.BasePage_BaseTest_Demo@192d43ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BasePage_BaseTest_Demo -->
+    </test> <!-- Bai1Tests -->
+  </suite> <!-- Bai1Suite -->
+</testng-results>
